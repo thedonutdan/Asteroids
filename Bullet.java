@@ -26,7 +26,6 @@ public class Bullet extends GamePiece {
 		this.isPlayerBullet = isPlayerBullet;
 		range = Asteroids.CANVAS_WIDTH * 2; // Bullet should be able to travel twice across the game canvas
 		setImage(Asteroids.gc.getBulletImage()); // Retrieve image from controller
-		System.out.println(this);
 	}
 	
 	/** Wraps bullet around screen if it exceeds game window boundaries
