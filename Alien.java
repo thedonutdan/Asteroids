@@ -92,7 +92,6 @@ public class Alien extends GamePiece {
 		double direction = Math.toDegrees(Math.atan(distance[1] / distance[0]));
 		double gunX = (x + (getAnimationImage().getWidth(this) / 2)) + Math.cos(Math.toRadians(direction)) * 22;
 		double gunY = (y + (getAnimationImage().getHeight(this) / 2)) + Math.sin(Math.toRadians(direction)) * 22;
-		System.out.println(direction);
 		Bullet bullet = new Bullet(gunX, gunY, direction, 5, false);
 		Asteroids.gc.addAlienBullet(bullet);
 	}
