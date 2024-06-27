@@ -10,7 +10,7 @@ JavaDoc generated documentation is located [here](https://thedonutdan.github.io/
 Running this game requires Java 14 or later.
 
 ### Running from Jar file
-A .jar file is included in the release of this project. Simply download the .jar file, install java 14 or later from [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html), then you can either double-click the file, or navigate to the directory it is located in using the command line interface and run java -jar Asteroids.jar.
+A .jar file is included in the release of this project. Simply download the .jar file, install java 14 or later from [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html), then you can either double-click the file, or navigate to the directory it is located in using the command line interface and run `java -jar Asteroids.jar`.
 
 ### Running from source code
 Follow these steps to run from the source code:
