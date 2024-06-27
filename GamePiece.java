@@ -3,8 +3,8 @@ import java.awt.image.BufferedImage;
 
 import java.awt.Image;
 
-import java.awt.geom.AffineTransform;
-import java.awt.image.AffineTransformOp;
+//import java.awt.geom.AffineTransform;
+//import java.awt.image.AffineTransformOp;
 
 import java.lang.Math;
 /** GamePiece.java - An abstract class used to build all game pieces in game
@@ -20,12 +20,14 @@ public abstract class GamePiece extends JComponent {
 	private Image animationImage;
 
 	/** Sets the image to be rendered by the game piece
+	 * @param bf Image to be set
 	*/
 	public  void setImage(BufferedImage bf) {
 		image = bf;
 	};
 
 	/** Sets the rotated image to be rendered in specific rotation
+	 * @param bf Image to be set
 	*/
 	public void setRotatedImage(BufferedImage bf) {
 		rotatedImage = bf;

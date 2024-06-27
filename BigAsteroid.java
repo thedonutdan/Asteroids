@@ -27,6 +27,8 @@ public class BigAsteroid extends GamePiece {
 	}
 
 	/** Full Constructor sets location of asteroid
+	 * @param x x-coordinate for asteroid location
+	 * @param y y-coordinate for asteriod location
 	*/
 	public BigAsteroid(double x, double y) {
 		this.x = x; // Set x, y coordinates

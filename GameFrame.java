@@ -160,7 +160,7 @@ public class GameFrame extends JFrame {
 	/** Removes a component from the game panel
 	* This method uses Polymorphism to allow all game objects to be handled by 
 	* one method as they are all descendents of JComponent
-	* @param components Component to be removed from panel
+	* @param component Component to be removed from panel
 	*/
 	public void removeFromPanel(JComponent component) {
 		gamePanel.remove(component); // Remove component from game panel

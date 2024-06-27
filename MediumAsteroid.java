@@ -6,6 +6,8 @@
 */
 public class MediumAsteroid extends BigAsteroid {
 	/** Full constructor sets location, speed and image
+	 * @param x x-coordinate of asteroid location
+	 * @param y y-coordinate of asteroid location
 	*/
 	public MediumAsteroid(double x, double y) {
 		super(); // Call to super for direction and image rotation

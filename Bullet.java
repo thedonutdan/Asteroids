@@ -29,6 +29,7 @@ public class Bullet extends GamePiece {
 	}
 	
 	/** Wraps bullet around screen if it exceeds game window boundaries
+	 * @return true if object is offscreen, false otherwise
 	*/
 	public boolean screenWrap() {
 		if (x > Asteroids.CANVAS_WIDTH - getImage().getWidth() / 2) {

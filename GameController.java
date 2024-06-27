@@ -84,7 +84,7 @@ public class GameController {
 	}
 
 	/** Load images for game object sprites
-	* Throws an IOException if any images are absent
+	* @Throws an IOException if any images are absent
 	*/
 	public void loadImages() throws IOException {
 		playerImage = ImageIO.read(new File("images/playertransparent.png"));
@@ -100,7 +100,7 @@ public class GameController {
 	}
 
 	/** Load current highscore from file
-	* Throws IOException if no file is present
+	* @Throws IOException if no file is present
 	* This method implements text file I/O
 	* Known exploit: Text file is unsecure and easy to edit
 	*/

@@ -1,7 +1,7 @@
 import java.io.IOException;
 /** Asteroids.java - A clone of classic Atari arcade game Asteroids
-* <ul>
-* 	<li>Algorithm:</li>
+* 
+* 	Algorithm:
 *	 <ol>
 *		<li>Create gamecontroller with public scope to give all objects access</li>
 *		<li>Load images and highscore, exit if error occurs</li>
@@ -21,7 +21,7 @@ import java.io.IOException;
 *		<li>If player lives above zero, return to step 9</li>
 *		<li>Save high scores and terminate program</li>
 *	 </ol>
-* </li>
+* 
 * 
 * @author Daniel Andrews
 * @version Final Project
