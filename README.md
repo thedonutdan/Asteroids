@@ -10,5 +10,6 @@ JavaDoc generated documentation is located [here](https://thedonutdan.github.io/
 Follow these steps to run from the source code:
 1. Ensure Java 14 or later is installed on your device from [Oracle](https://www.oracle.com/java/technologies/javase-downloads.html)
 2. Clone this respository to your local device
-3. Run `javac *.java`
-4. Run `java Asteroids`
+3. In the command line run the following commands:
+4. Run `javac *.java`
+5. Run `java Asteroids`
