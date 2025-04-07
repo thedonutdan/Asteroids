@@ -3,16 +3,10 @@ import java.awt.image.BufferedImage;
 
 import java.awt.Image;
 
-//import java.awt.geom.AffineTransform;
-//import java.awt.image.AffineTransformOp;
-
 import java.lang.Math;
 /** GamePiece.java - An abstract class used to build all game pieces in game
-* This class is abstract, serving as a blueprint to ensure player, bullet, and all asteroid objects
-* can be handled correctly by the game controller
-* This class satisfies requirement f. of project specification
 * @author Daniel Andrews
-* @version Final Project
+* 
 */
 public abstract class GamePiece extends JComponent {
 	private BufferedImage image, // Each gamepiece will use a BufferedImage to paint itself on the game canvas

@@ -17,11 +17,8 @@ import java.awt.Insets;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 /** GameFrame.java - A class to generate game window and handle GUI
-* This class contains a GUI per requirement f. in project specifications
-* This class also uses Polymorphism when adding and subtracting game elements
-* 	per requirement b. in project specifications
 * @author Daniel Andrews
-* @version Final Project
+*
 */
 public class GameFrame extends JFrame {
 	private static final String TITLE = "Asteroids"; // Window title should always be "Asteroids"

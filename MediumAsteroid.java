@@ -1,8 +1,6 @@
 /** MediumAsteroid.java - A class to represent a medium asteroid
-* This class features inheritence by extending BigAsteroid by requirement a. in
-* project specification
 * @author Daniel Andrews
-* @version Final Project
+* 
 */
 public class MediumAsteroid extends BigAsteroid {
 	/** Full constructor sets location, speed and image

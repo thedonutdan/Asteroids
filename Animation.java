@@ -1,4 +1,3 @@
-//import javax.swing.ImageIcon;
 import javax.swing.JComponent;
 
 import java.awt.Image;
@@ -16,8 +15,6 @@ public class Animation extends JComponent {
 		this.y = y;
 		if (animationType.equals("player")) {
 			image = Asteroids.gc.getPlayerDestroyedImage();
-		} else {
-			//image = Asteroids.gc.getAsteroidDestroyedImage();
 		}
 	}
 

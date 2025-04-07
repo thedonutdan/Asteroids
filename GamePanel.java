@@ -8,9 +8,7 @@ public class GamePanel extends JPanel {
 
 	public GamePanel(int width, int height, GameController gc) {
 		this.width = width;
-		this.height = height;
-		//setBounds(0, 0, width, height);
-		
+		this.height = height;	
 	}
 
 }

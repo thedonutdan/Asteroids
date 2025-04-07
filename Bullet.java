@@ -3,10 +3,9 @@ import java.awt.Graphics2D;
 
 import java.lang.Math;
 /** Bullet.java - A bullet shot by the player\
-* This class features inheritence from custom class GamePiece per requirement a. in
-* project specification
+*
 * @author Daniel Andrews
-* @version Final Project
+*
 */
 public class Bullet extends GamePiece {
 	private double x, // x and y coordinates

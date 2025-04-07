@@ -18,10 +18,9 @@ import java.awt.event.ActionListener;
 
 import java.lang.Math;
 /** Player.java - A ship for the player to manipulate during game
-* This class features inheritence as it inherits from GamePiece which is a requirement
-* per project specification a. 
+* 
 * @author Daniel Andrews
-* @author Final Project
+*
 */
 public class Player extends GamePiece{
 	private Image destroyedImage; // Ship explosion animation

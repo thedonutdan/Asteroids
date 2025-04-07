@@ -26,13 +26,9 @@ import java.util.Scanner;
 
 import java.lang.Math;
 /** GameController.java - A class to control flow of asteroids game
-* This class features PolyMorphism in storing parent and child classes in same arraylists 
-* and calling inherited methods per requirement b in project specifications
-* this class also features text file I/O to retrieve and record high scores per requirement
-* c. in project specifications
 * 
 * @author Daniel Andrews
-* @version Final Project
+* 
 */
 public class GameController {
 	BufferedImage playerImage, // Declare variables to hold game sprites
@@ -84,7 +80,7 @@ public class GameController {
 	}
 
 	/** Load images for game object sprites
-	* @Throws an IOException if any images are absent
+	* @throws IOException if any images are absent
 	*/
 	public void loadImages() throws IOException {
 		playerImage = ImageIO.read(new File("images/playertransparent.png"));
@@ -100,7 +96,7 @@ public class GameController {
 	}
 
 	/** Load current highscore from file
-	* @Throws IOException if no file is present
+	* @throws IOException if no file is present
 	* This method implements text file I/O
 	* Known exploit: Text file is unsecure and easy to edit
 	*/

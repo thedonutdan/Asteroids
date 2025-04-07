@@ -6,10 +6,8 @@ import java.awt.image.BufferedImage;
 
 import java.lang.Math;
 /** BigAsteroid.java - A class to represent a large asteroid
-* This class features inheritence as it is a child of custom class GamePiece as required by
-* project specification a.
 * @author Daniel Andrews
-* @version Final Project
+* 
 */
 public class BigAsteroid extends GamePiece {
 	private double x, // x and y coordination and direction

@@ -24,7 +24,7 @@ import java.io.IOException;
 * 
 * 
 * @author Daniel Andrews
-* @version Final Project
+* 
 */
 public class Asteroids {
 	// Constants to set the game window width and height

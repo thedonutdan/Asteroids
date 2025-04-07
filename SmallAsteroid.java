@@ -1,7 +1,7 @@
 /** SmallAsteroid.java - A class to represent a small asteroid
-* This class meets project specification requirement a. by inheriting from BigAsteroid
+* 
 * @author Daniel Andrews
-* @version Final Project
+* 
 */
 public class SmallAsteroid extends BigAsteroid {
 	/** Full constructor sets coordinates, speed, and loads images

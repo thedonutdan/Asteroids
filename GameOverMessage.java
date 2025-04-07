@@ -6,7 +6,6 @@ import java.awt.Color;
 import java.awt.Font;
 /** GameOverMessage.java - A class to display game over message at end of game
 * @author Daniel Andrews
-* @version Final Project
 */
 public class GameOverMessage extends JComponent {
 	private double x, // x and y coordinates to display message
